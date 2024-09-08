@@ -38,9 +38,9 @@ interface FontStyle {
 
 
 export default function Home() {
-  const [videoUrl, setVideoUrl] = useState<string>("/videos/video.mp4");
+  const [videoUrl, setVideoUrl] = useState<string>("/videos/video1.mp4");
   const [subtitlesUrl, setSubtitlesUrl] = useState<string>(
-    "/subtitles/subtitle.srt"
+    "/subtitles/subtitle1.srt"
   );
   const [processedVideoUrl, setProcessedVideoUrl] = useState<string | null>(
     null
@@ -94,7 +94,7 @@ export default function Home() {
           #1CFFDD 2px -4px 5px, 
           #1CFFDD 3px -3px 5px, 
           #1CFFDD 4px -1px 5px`,
-      backgroundColor: " ",
+      backgroundColor: "#1CFFDD",
   });
   const [startTime, setStartTime] = useState<number>(0);
   const [endTime, setEndTime] = useState<number>(0);

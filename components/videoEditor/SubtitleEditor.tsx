@@ -65,7 +65,7 @@ const fontStyles: Record<string, FontStyle> = {
             #1CFFDD 2px -4px 5px, 
             #1CFFDD 3px -3px 5px, 
             #1CFFDD 4px -1px 5px`,
-        backgroundColor: " ",
+        backgroundColor: "#1CFFDD",
     },
     font2: {
         id: 2,
