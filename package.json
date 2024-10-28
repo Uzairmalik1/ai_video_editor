@@ -31,7 +31,7 @@
     "@boxyhq/metrics": "0.2.7",
     "@boxyhq/react-ui": "3.3.43",
     "@boxyhq/saml-jackson": "1.25.0",
-    "@distube/ytdl-core": "^4.13.7",
+    "@distube/ytdl-core": "^4.15.1",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@ffmpeg/core": "^0.12.6",
